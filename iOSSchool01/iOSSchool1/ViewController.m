@@ -41,7 +41,7 @@
     }
 }
 - (IBAction)onButtonClick:(id)sender {
-    myLabel.text = @"Hello";
+    myLabel.text = @"Hello1";
 }
 
 - (IBAction)OnMyButton2Click:(id)sender {
