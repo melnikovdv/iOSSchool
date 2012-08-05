@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38784F8B15CE9F44004904DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38784F8A15CE9F44004904DD /* Foundation.framework */; };
+		38784F9015CE9F44004904DD /* mdvlib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38784F8F15CE9F44004904DD /* mdvlib.h */; };
+		38784F9215CE9F44004904DD /* mdvlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 38784F9115CE9F44004904DD /* mdvlib.m */; };
+		38784F9A15CE9F44004904DD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38784F9915CE9F44004904DD /* SenTestingKit.framework */; };
+		38784F9C15CE9F44004904DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38784F9B15CE9F44004904DD /* UIKit.framework */; };
+		38784F9D15CE9F44004904DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38784F8A15CE9F44004904DD /* Foundation.framework */; };
+		38784FA015CE9F44004904DD /* libmdvlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38784F8715CE9F43004904DD /* libmdvlib.a */; };
+		38784FA615CE9F44004904DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38784FA415CE9F44004904DD /* InfoPlist.strings */; };
+		38784FA915CE9F44004904DD /* mdvlibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38784FA815CE9F44004904DD /* mdvlibTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38784F9E15CE9F44004904DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38784F7E15CE9F43004904DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38784F8615CE9F43004904DD;
+			remoteInfo = mdvlib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		38784F8515CE9F43004904DD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				38784F9015CE9F44004904DD /* mdvlib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		38784F8715CE9F43004904DD /* libmdvlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmdvlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		38784F8A15CE9F44004904DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38784F8E15CE9F44004904DD /* mdvlib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mdvlib-Prefix.pch"; sourceTree = "<group>"; };
+		38784F8F15CE9F44004904DD /* mdvlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mdvlib.h; sourceTree = "<group>"; };
+		38784F9115CE9F44004904DD /* mdvlib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mdvlib.m; sourceTree = "<group>"; };
+		38784F9815CE9F44004904DD /* mdvlibTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mdvlibTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38784F9915CE9F44004904DD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		38784F9B15CE9F44004904DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		38784FA315CE9F44004904DD /* mdvlibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mdvlibTests-Info.plist"; sourceTree = "<group>"; };
+		38784FA515CE9F44004904DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38784FA715CE9F44004904DD /* mdvlibTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mdvlibTests.h; sourceTree = "<group>"; };
+		38784FA815CE9F44004904DD /* mdvlibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mdvlibTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38784F8415CE9F43004904DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38784F8B15CE9F44004904DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38784F9415CE9F44004904DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38784F9A15CE9F44004904DD /* SenTestingKit.framework in Frameworks */,
+				38784F9C15CE9F44004904DD /* UIKit.framework in Frameworks */,
+				38784F9D15CE9F44004904DD /* Foundation.framework in Frameworks */,
+				38784FA015CE9F44004904DD /* libmdvlib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38784F7C15CE9F43004904DD = {
+			isa = PBXGroup;
+			children = (
+				38784F8C15CE9F44004904DD /* mdvlib */,
+				38784FA115CE9F44004904DD /* mdvlibTests */,
+				38784F8915CE9F43004904DD /* Frameworks */,
+				38784F8815CE9F43004904DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38784F8815CE9F43004904DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38784F8715CE9F43004904DD /* libmdvlib.a */,
+				38784F9815CE9F44004904DD /* mdvlibTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38784F8915CE9F43004904DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38784F8A15CE9F44004904DD /* Foundation.framework */,
+				38784F9915CE9F44004904DD /* SenTestingKit.framework */,
+				38784F9B15CE9F44004904DD /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38784F8C15CE9F44004904DD /* mdvlib */ = {
+			isa = PBXGroup;
+			children = (
+				38784F8F15CE9F44004904DD /* mdvlib.h */,
+				38784F9115CE9F44004904DD /* mdvlib.m */,
+				38784F8D15CE9F44004904DD /* Supporting Files */,
+			);
+			path = mdvlib;
+			sourceTree = "<group>";
+		};
+		38784F8D15CE9F44004904DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38784F8E15CE9F44004904DD /* mdvlib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38784FA115CE9F44004904DD /* mdvlibTests */ = {
+			isa = PBXGroup;
+			children = (
+				38784FA715CE9F44004904DD /* mdvlibTests.h */,
+				38784FA815CE9F44004904DD /* mdvlibTests.m */,
+				38784FA215CE9F44004904DD /* Supporting Files */,
+			);
+			path = mdvlibTests;
+			sourceTree = "<group>";
+		};
+		38784FA215CE9F44004904DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38784FA315CE9F44004904DD /* mdvlibTests-Info.plist */,
+				38784FA415CE9F44004904DD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38784F8615CE9F43004904DD /* mdvlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38784FAC15CE9F44004904DD /* Build configuration list for PBXNativeTarget "mdvlib" */;
+			buildPhases = (
+				38784F8315CE9F43004904DD /* Sources */,
+				38784F8415CE9F43004904DD /* Frameworks */,
+				38784F8515CE9F43004904DD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mdvlib;
+			productName = mdvlib;
+			productReference = 38784F8715CE9F43004904DD /* libmdvlib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		38784F9715CE9F44004904DD /* mdvlibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38784FAF15CE9F44004904DD /* Build configuration list for PBXNativeTarget "mdvlibTests" */;
+			buildPhases = (
+				38784F9315CE9F44004904DD /* Sources */,
+				38784F9415CE9F44004904DD /* Frameworks */,
+				38784F9515CE9F44004904DD /* Resources */,
+				38784F9615CE9F44004904DD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38784F9F15CE9F44004904DD /* PBXTargetDependency */,
+			);
+			name = mdvlibTests;
+			productName = mdvlibTests;
+			productReference = 38784F9815CE9F44004904DD /* mdvlibTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38784F7E15CE9F43004904DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Дмитрий Мельников";
+			};
+			buildConfigurationList = 38784F8115CE9F43004904DD /* Build configuration list for PBXProject "mdvlib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38784F7C15CE9F43004904DD;
+			productRefGroup = 38784F8815CE9F43004904DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38784F8615CE9F43004904DD /* mdvlib */,
+				38784F9715CE9F44004904DD /* mdvlibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38784F9515CE9F44004904DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38784FA615CE9F44004904DD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38784F9615CE9F44004904DD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38784F8315CE9F43004904DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38784F9215CE9F44004904DD /* mdvlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38784F9315CE9F44004904DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38784FA915CE9F44004904DD /* mdvlibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38784F9F15CE9F44004904DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38784F8615CE9F43004904DD /* mdvlib */;
+			targetProxy = 38784F9E15CE9F44004904DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38784FA415CE9F44004904DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38784FA515CE9F44004904DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38784FAA15CE9F44004904DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38784FAB15CE9F44004904DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38784FAD15CE9F44004904DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/mdvlib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mdvlib/mdvlib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		38784FAE15CE9F44004904DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/mdvlib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mdvlib/mdvlib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		38784FB015CE9F44004904DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mdvlib/mdvlib-Prefix.pch";
+				INFOPLIST_FILE = "mdvlibTests/mdvlibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		38784FB115CE9F44004904DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mdvlib/mdvlib-Prefix.pch";
+				INFOPLIST_FILE = "mdvlibTests/mdvlibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38784F8115CE9F43004904DD /* Build configuration list for PBXProject "mdvlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38784FAA15CE9F44004904DD /* Debug */,
+				38784FAB15CE9F44004904DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38784FAC15CE9F44004904DD /* Build configuration list for PBXNativeTarget "mdvlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38784FAD15CE9F44004904DD /* Debug */,
+				38784FAE15CE9F44004904DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38784FAF15CE9F44004904DD /* Build configuration list for PBXNativeTarget "mdvlibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38784FB015CE9F44004904DD /* Debug */,
+				38784FB115CE9F44004904DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38784F7E15CE9F43004904DD /* Project object */;
+}
