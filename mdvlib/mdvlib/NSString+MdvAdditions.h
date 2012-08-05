@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSString+MdvAdditions.h"
 
 @interface NSString (MdvAdditions)
+
+- (BOOL) isUrl;
+- (NSString *) reverseString;
 
 @end

@@ -7,13 +7,17 @@
 //
 
 #import "mdvlibTests.h"
+#import <Foundation/Foundation.h>
+#import "NSString+MdvAdditions.h"
 
 @implementation mdvlibTests
+
+NSString *strHttp = @"http://ya.ru";
+NSString *strSimple = @"just string";
 
 - (void)setUp
 {
     [super setUp];
-    
     // Set-up code here.
 }
 
@@ -24,9 +28,12 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testIsUrl
 {
-    STFail(@"Unit tests are not implemented yet in mdvlibTests");
+    BOOL isUrl = [strHttp isUrl];
+    STAssertTrue(isUrl, @"this must be an url");
+//    error: testIsUrl (mdvlibTests) failed: -[__NSCFConstantString isUrl]: unrecognized selector sent to instance 0x187b350
+
 }
 
 @end
