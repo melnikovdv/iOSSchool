@@ -361,6 +361,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mdvlib/mdvlib-Prefix.pch";
 				INFOPLIST_FILE = "mdvlibTests/mdvlibTests-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -376,6 +377,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mdvlib/mdvlib-Prefix.pch";
 				INFOPLIST_FILE = "mdvlibTests/mdvlibTests-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -400,6 +402,7 @@
 				38784FAE15CE9F44004904DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38784FAF15CE9F44004904DD /* Build configuration list for PBXNativeTarget "mdvlibTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +411,7 @@
 				38784FB115CE9F44004904DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
