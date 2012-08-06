@@ -28,12 +28,20 @@ NSString *strSimple = @"just string";
     [super tearDown];
 }
 
-- (void)testIsUrl
+- (void) testIsUrl
 {
     BOOL isUrl = [strHttp isUrl];
-    STAssertTrue(isUrl, @"this must be an url");
+    STAssertTrue(isUrl, [NSString stringWithFormat:@"%@%@", strHttp, @" this must be an url"]);
 //    error: testIsUrl (mdvlibTests) failed: -[__NSCFConstantString isUrl]: unrecognized selector sent to instance 0x187b350
-
+// build target linker flag -ObjC
+    isUrl = [strSimple isUrl];
+    STAssertFalse(isUrl, [NSString stringWithFormat:@"%@%@", strSimple, @" this must be a simple string"]);
 }
 
+- (void) testRevertString
+{
+    STAssertTrue([[strSimple reverseString] isEqualToString:@"gnirts tsuj"], @"expect correctly reverted string");
+}
+    
 @end
+
