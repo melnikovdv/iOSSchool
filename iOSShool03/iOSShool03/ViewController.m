@@ -11,6 +11,7 @@
 @interface ViewController ()
 @property (strong, nonatomic) IBOutlet UIButton *btn;
 @property (strong, nonatomic) IBOutlet UILabel *lbl;
+- (IBAction)btnNav:(id)sender;
 
 @end
 
@@ -22,6 +23,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCompose target:self action:@selector(barButtonItemTap)];
+}
+
+- (void)barButtonItemTap {
+    NSLog(@"barButtonItemTap");
 }
 
 - (void)viewDidUnload
@@ -41,4 +47,9 @@
     }
 }
 
+- (IBAction)btnNav:(id)sender {
+    UIViewController *newCtrl = [[UIViewController alloc] init];
+    [self.navigationController pushViewController:newCtrl animated:YES];
+    newCtrl.title = @"Title test";
+}
 @end

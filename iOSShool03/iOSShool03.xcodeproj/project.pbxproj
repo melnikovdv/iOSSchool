@@ -21,6 +21,7 @@
 		3878500D15D2BCC2004904DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38784FEB15D2BCC1004904DD /* Foundation.framework */; };
 		3878501515D2BCC2004904DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3878501315D2BCC2004904DD /* InfoPlist.strings */; };
 		3878501815D2BCC2004904DD /* iOSShool03Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3878501715D2BCC2004904DD /* iOSShool03Tests.m */; };
+		3878502215D2DD64004904DD /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3878502115D2DD64004904DD /* AddressBookUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		3878501415D2BCC2004904DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3878501615D2BCC2004904DD /* iOSShool03Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSShool03Tests.h; sourceTree = "<group>"; };
 		3878501715D2BCC2004904DD /* iOSShool03Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSShool03Tests.m; sourceTree = "<group>"; };
+		3878502115D2DD64004904DD /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3878502215D2DD64004904DD /* AddressBookUI.framework in Frameworks */,
 				38784FEA15D2BCC1004904DD /* UIKit.framework in Frameworks */,
 				38784FEC15D2BCC1004904DD /* Foundation.framework in Frameworks */,
 				38784FEE15D2BCC1004904DD /* CoreGraphics.framework in Frameworks */,
@@ -102,6 +105,7 @@
 		38784FE815D2BCC1004904DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3878502115D2DD64004904DD /* AddressBookUI.framework */,
 				38784FE915D2BCC1004904DD /* UIKit.framework */,
 				38784FEB15D2BCC1004904DD /* Foundation.framework */,
 				38784FED15D2BCC1004904DD /* CoreGraphics.framework */,
