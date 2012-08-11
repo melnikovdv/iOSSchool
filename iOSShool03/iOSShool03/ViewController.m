@@ -24,6 +24,9 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCompose target:self action:@selector(barButtonItemTap)];
+//    _btn.contentStretch =
+    [_btn setBackgroundImage:[UIImage imageNamed:@"btn_white"] forState:UIControlStateNormal];
+//    stretchableImageWithLeftCapWidth:(NSInteger) topCapHeight:(NSInteger)
 }
 
 - (void)barButtonItemTap {
@@ -49,8 +52,18 @@
 
 - (IBAction)btnNav:(id)sender {
     UIViewController *newCtrl = [[UIViewController alloc] init];
-    [self.navigationController pushViewController:newCtrl animated:YES];
+//    [self.navigationController pushViewController:newCtrl animated:YES];
     newCtrl.title = @"Title test";
+    
+//    UIViewController * myController = [[ViewController alloc] initWithNibName:@"ViewTable" bundle:nil];
+//    [self.navigationController pushViewController:myController. animated:YES];
+    
+    [UIView animateWithDuration:3 animations:^{
+//        lbl.backgroundColor = [UIColor redColor];
+        lbl.alpha = 0.0;
+    } completion:^(BOOL finiished){
+        NSLog(@"completions");
+    }];
 }
 @end
 
