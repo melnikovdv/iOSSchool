@@ -7,17 +7,32 @@
 //
 
 #import "ViewController.h"
+#import "MyCustomCell.h"
 
 @interface ViewController ()
 @property (strong, nonatomic) IBOutlet UIButton *btn;
 @property (strong, nonatomic) IBOutlet UILabel *lbl;
+@property (strong, nonatomic) NSArray *items;
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) IBOutlet MyCustomCell *tmpCell;
+
 - (IBAction)btnNav:(id)sender;
 
 @end
 
 @implementation ViewController
+@synthesize tableView = _tableView;
+@synthesize tmpCell = _tmpCell;
 @synthesize btn = _btn;
 @synthesize lbl;
+
+- (id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        self.items = @[ @"One", @"Two", @"Three", @"Four", @"Five", @"Six", @"Seven", @"Eight", @"Nine", @"Ten", @"Eleven", @"Twelve"];
+    }
+    return self;
+}
 
 - (void)viewDidLoad
 {
@@ -37,6 +52,8 @@
 {
     [self setBtn:nil];
     [self setLbl:nil];
+    [self setTableView:nil];
+    [self setTmpCell:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -65,6 +82,35 @@
         NSLog(@"completions");
     }];
 }
-@end
 
+#pragma mark -
+#pragma mark UITableView Stuff
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 65;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.items.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString* cellId = @"MyCell";
+    
+    MyCustomCell* cell = (MyCustomCell*)[tableView dequeueReusableCellWithIdentifier:cellId];
+    
+    if (!cell) {
+        [[NSBundle mainBundle] loadNibNamed:@"MyCustomCell" owner:self options:nil];
+        cell = self.tmpCell;
+        self.tmpCell = nil;
+        NSLog(@"Created new cell %@ for row: %d", cell, indexPath.row);
+    } else {
+        NSLog(@"Reused cell %@ for row: %d", cell, indexPath.row);
+    }
+    
+    cell.label.text = [self.items objectAtIndex:indexPath.row];
+    return cell;
+}
+
+@end
 // comment 1
