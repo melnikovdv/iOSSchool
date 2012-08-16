@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		386E706715DC0EAD004EC58D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386E706615DC0EAD004EC58D /* UIKit.framework */; };
+		386E706915DC0EAD004EC58D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386E706815DC0EAD004EC58D /* Foundation.framework */; };
+		386E706B15DC0EAD004EC58D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386E706A15DC0EAD004EC58D /* CoreGraphics.framework */; };
+		386E707115DC0EAD004EC58D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 386E706F15DC0EAD004EC58D /* InfoPlist.strings */; };
+		386E707315DC0EAD004EC58D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E707215DC0EAD004EC58D /* main.m */; };
+		386E707715DC0EAD004EC58D /* MLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E707615DC0EAD004EC58D /* MLAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		386E706215DC0EAD004EC58D /* ARCSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARCSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		386E706615DC0EAD004EC58D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		386E706815DC0EAD004EC58D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		386E706A15DC0EAD004EC58D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		386E706E15DC0EAD004EC58D /* ARCSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARCSample-Info.plist"; sourceTree = "<group>"; };
+		386E707015DC0EAD004EC58D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		386E707215DC0EAD004EC58D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		386E707415DC0EAD004EC58D /* ARCSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARCSample-Prefix.pch"; sourceTree = "<group>"; };
+		386E707515DC0EAD004EC58D /* MLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLAppDelegate.h; sourceTree = "<group>"; };
+		386E707615DC0EAD004EC58D /* MLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		386E705F15DC0EAD004EC58D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386E706715DC0EAD004EC58D /* UIKit.framework in Frameworks */,
+				386E706915DC0EAD004EC58D /* Foundation.framework in Frameworks */,
+				386E706B15DC0EAD004EC58D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		386E705715DC0EAD004EC58D = {
+			isa = PBXGroup;
+			children = (
+				386E706C15DC0EAD004EC58D /* ARCSample */,
+				386E706515DC0EAD004EC58D /* Frameworks */,
+				386E706315DC0EAD004EC58D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		386E706315DC0EAD004EC58D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				386E706215DC0EAD004EC58D /* ARCSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		386E706515DC0EAD004EC58D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				386E706615DC0EAD004EC58D /* UIKit.framework */,
+				386E706815DC0EAD004EC58D /* Foundation.framework */,
+				386E706A15DC0EAD004EC58D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		386E706C15DC0EAD004EC58D /* ARCSample */ = {
+			isa = PBXGroup;
+			children = (
+				386E707515DC0EAD004EC58D /* MLAppDelegate.h */,
+				386E707615DC0EAD004EC58D /* MLAppDelegate.m */,
+				386E706D15DC0EAD004EC58D /* Supporting Files */,
+			);
+			path = ARCSample;
+			sourceTree = "<group>";
+		};
+		386E706D15DC0EAD004EC58D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				386E706E15DC0EAD004EC58D /* ARCSample-Info.plist */,
+				386E706F15DC0EAD004EC58D /* InfoPlist.strings */,
+				386E707215DC0EAD004EC58D /* main.m */,
+				386E707415DC0EAD004EC58D /* ARCSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		386E706115DC0EAD004EC58D /* ARCSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386E707A15DC0EAD004EC58D /* Build configuration list for PBXNativeTarget "ARCSample" */;
+			buildPhases = (
+				386E705E15DC0EAD004EC58D /* Sources */,
+				386E705F15DC0EAD004EC58D /* Frameworks */,
+				386E706015DC0EAD004EC58D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARCSample;
+			productName = ARCSample;
+			productReference = 386E706215DC0EAD004EC58D /* ARCSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		386E705915DC0EAD004EC58D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ML;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Дмитрий Мельников";
+			};
+			buildConfigurationList = 386E705C15DC0EAD004EC58D /* Build configuration list for PBXProject "ARCSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 386E705715DC0EAD004EC58D;
+			productRefGroup = 386E706315DC0EAD004EC58D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				386E706115DC0EAD004EC58D /* ARCSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		386E706015DC0EAD004EC58D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386E707115DC0EAD004EC58D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		386E705E15DC0EAD004EC58D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386E707315DC0EAD004EC58D /* main.m in Sources */,
+				386E707715DC0EAD004EC58D /* MLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		386E706F15DC0EAD004EC58D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				386E707015DC0EAD004EC58D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		386E707815DC0EAD004EC58D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		386E707915DC0EAD004EC58D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		386E707B15DC0EAD004EC58D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARCSample/ARCSample-Prefix.pch";
+				INFOPLIST_FILE = "ARCSample/ARCSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		386E707C15DC0EAD004EC58D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARCSample/ARCSample-Prefix.pch";
+				INFOPLIST_FILE = "ARCSample/ARCSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		386E705C15DC0EAD004EC58D /* Build configuration list for PBXProject "ARCSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386E707815DC0EAD004EC58D /* Debug */,
+				386E707915DC0EAD004EC58D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		386E707A15DC0EAD004EC58D /* Build configuration list for PBXNativeTarget "ARCSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386E707B15DC0EAD004EC58D /* Debug */,
+				386E707C15DC0EAD004EC58D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 386E705915DC0EAD004EC58D /* Project object */;
+}
