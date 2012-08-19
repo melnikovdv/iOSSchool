@@ -12,7 +12,19 @@
 
 int main(int argc, char *argv[])
 {
+        NSString __weak *b = nil;
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([MLAppDelegate class]));
+
+//        return UIApplicationMain(argc, argv, nil, NSStringFromClass([MLAppDelegate class]));
+//        NSString __strong *b = nil;
+//        NSString __weak *b = nil;
+        {
+//            NSString *c = [[NSString alloc] initWithFormat:@"Sample string: %d", 10];
+            NSString *c = [NSString stringWithFormat:@"Sample string: %d", 10];
+            b = c;
+        }
+//        NSLog(@"C: %@", c);
+//        NSLog(@"B: %@", b);
     }
+    NSLog(@"B: %@", b);
 }

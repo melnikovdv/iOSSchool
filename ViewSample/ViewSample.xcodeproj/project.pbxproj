@@ -15,6 +15,8 @@
 		386E704615DBF3D5004EC58D /* MLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E704515DBF3D5004EC58D /* MLAppDelegate.m */; };
 		386E704915DBF3D5004EC58D /* MLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E704815DBF3D5004EC58D /* MLViewController.m */; };
 		386E704C15DBF3D5004EC58D /* MLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386E704A15DBF3D5004EC58D /* MLViewController.xib */; };
+		386E705415DBF44F004EC58D /* MLCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E705315DBF44F004EC58D /* MLCustomView.m */; };
+		386E705615DC001A004EC58D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386E705515DC001A004EC58D /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		386E704715DBF3D5004EC58D /* MLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLViewController.h; sourceTree = "<group>"; };
 		386E704815DBF3D5004EC58D /* MLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLViewController.m; sourceTree = "<group>"; };
 		386E704B15DBF3D5004EC58D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MLViewController.xib; sourceTree = "<group>"; };
+		386E705215DBF44F004EC58D /* MLCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLCustomView.h; sourceTree = "<group>"; };
+		386E705315DBF44F004EC58D /* MLCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLCustomView.m; sourceTree = "<group>"; };
+		386E705515DC001A004EC58D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				386E705615DC001A004EC58D /* QuartzCore.framework in Frameworks */,
 				386E703615DBF3D5004EC58D /* UIKit.framework in Frameworks */,
 				386E703815DBF3D5004EC58D /* Foundation.framework in Frameworks */,
 				386E703A15DBF3D5004EC58D /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +73,7 @@
 		386E703415DBF3D5004EC58D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				386E705515DC001A004EC58D /* QuartzCore.framework */,
 				386E703515DBF3D5004EC58D /* UIKit.framework */,
 				386E703715DBF3D5004EC58D /* Foundation.framework */,
 				386E703915DBF3D5004EC58D /* CoreGraphics.framework */,
@@ -77,6 +84,8 @@
 		386E703B15DBF3D5004EC58D /* ViewSample */ = {
 			isa = PBXGroup;
 			children = (
+				386E705215DBF44F004EC58D /* MLCustomView.h */,
+				386E705315DBF44F004EC58D /* MLCustomView.m */,
 				386E704415DBF3D5004EC58D /* MLAppDelegate.h */,
 				386E704515DBF3D5004EC58D /* MLAppDelegate.m */,
 				386E704715DBF3D5004EC58D /* MLViewController.h */,
@@ -165,6 +174,7 @@
 				386E704215DBF3D5004EC58D /* main.m in Sources */,
 				386E704615DBF3D5004EC58D /* MLAppDelegate.m in Sources */,
 				386E704915DBF3D5004EC58D /* MLViewController.m in Sources */,
+				386E705415DBF44F004EC58D /* MLCustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
