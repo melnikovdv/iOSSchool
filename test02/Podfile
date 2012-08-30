@@ -1,0 +1,4 @@
+xcodeproj './test02'
+
+platform :ios
+pod 'AFNetworking', '~> 1.0RC1'

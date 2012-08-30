@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D8CFCB2627D4FB4AB4612EF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED5C9C8986F4686A24606BE /* libPods.a */; };
+		388F3C4F15EA6BDB00199132 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388F3C4E15EA6BDB00199132 /* UIKit.framework */; };
+		388F3C5115EA6BDB00199132 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388F3C5015EA6BDB00199132 /* Foundation.framework */; };
+		388F3C5315EA6BDB00199132 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388F3C5215EA6BDB00199132 /* CoreGraphics.framework */; };
+		388F3C5915EA6BDB00199132 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 388F3C5715EA6BDB00199132 /* InfoPlist.strings */; };
+		388F3C5B15EA6BDB00199132 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 388F3C5A15EA6BDB00199132 /* main.m */; };
+		388F3C5F15EA6BDB00199132 /* MLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 388F3C5E15EA6BDB00199132 /* MLAppDelegate.m */; };
+		388F3C6215EA6BDB00199132 /* MLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 388F3C6115EA6BDB00199132 /* MLViewController.m */; };
+		388F3C6515EA6BDB00199132 /* MLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 388F3C6315EA6BDB00199132 /* MLViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09E07F97672D4F928B0605CF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		388F3C4A15EA6BDB00199132 /* PeriodicalPayments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriodicalPayments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		388F3C4E15EA6BDB00199132 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		388F3C5015EA6BDB00199132 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		388F3C5215EA6BDB00199132 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		388F3C5615EA6BDB00199132 /* PeriodicalPayments-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeriodicalPayments-Info.plist"; sourceTree = "<group>"; };
+		388F3C5815EA6BDB00199132 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		388F3C5A15EA6BDB00199132 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		388F3C5C15EA6BDB00199132 /* PeriodicalPayments-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeriodicalPayments-Prefix.pch"; sourceTree = "<group>"; };
+		388F3C5D15EA6BDB00199132 /* MLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLAppDelegate.h; sourceTree = "<group>"; };
+		388F3C5E15EA6BDB00199132 /* MLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLAppDelegate.m; sourceTree = "<group>"; };
+		388F3C6015EA6BDB00199132 /* MLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLViewController.h; sourceTree = "<group>"; };
+		388F3C6115EA6BDB00199132 /* MLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLViewController.m; sourceTree = "<group>"; };
+		388F3C6415EA6BDB00199132 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MLViewController.xib; sourceTree = "<group>"; };
+		3ED5C9C8986F4686A24606BE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		388F3C4715EA6BDB00199132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388F3C4F15EA6BDB00199132 /* UIKit.framework in Frameworks */,
+				388F3C5115EA6BDB00199132 /* Foundation.framework in Frameworks */,
+				388F3C5315EA6BDB00199132 /* CoreGraphics.framework in Frameworks */,
+				2D8CFCB2627D4FB4AB4612EF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		388F3C3F15EA6BDB00199132 = {
+			isa = PBXGroup;
+			children = (
+				388F3C5415EA6BDB00199132 /* PeriodicalPayments */,
+				388F3C4D15EA6BDB00199132 /* Frameworks */,
+				388F3C4B15EA6BDB00199132 /* Products */,
+				09E07F97672D4F928B0605CF /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		388F3C4B15EA6BDB00199132 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				388F3C4A15EA6BDB00199132 /* PeriodicalPayments.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		388F3C4D15EA6BDB00199132 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				388F3C4E15EA6BDB00199132 /* UIKit.framework */,
+				388F3C5015EA6BDB00199132 /* Foundation.framework */,
+				388F3C5215EA6BDB00199132 /* CoreGraphics.framework */,
+				3ED5C9C8986F4686A24606BE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		388F3C5415EA6BDB00199132 /* PeriodicalPayments */ = {
+			isa = PBXGroup;
+			children = (
+				388F3C7415EA6C9E00199132 /* ViewControllers */,
+				388F3C7215EA6C8D00199132 /* Application */,
+				388F3C5515EA6BDB00199132 /* Supporting Files */,
+			);
+			path = PeriodicalPayments;
+			sourceTree = "<group>";
+		};
+		388F3C5515EA6BDB00199132 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				388F3C5615EA6BDB00199132 /* PeriodicalPayments-Info.plist */,
+				388F3C5715EA6BDB00199132 /* InfoPlist.strings */,
+				388F3C5A15EA6BDB00199132 /* main.m */,
+				388F3C5C15EA6BDB00199132 /* PeriodicalPayments-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		388F3C7215EA6C8D00199132 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				388F3C5D15EA6BDB00199132 /* MLAppDelegate.h */,
+				388F3C5E15EA6BDB00199132 /* MLAppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		388F3C7415EA6C9E00199132 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				388F3C6015EA6BDB00199132 /* MLViewController.h */,
+				388F3C6115EA6BDB00199132 /* MLViewController.m */,
+				388F3C6315EA6BDB00199132 /* MLViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		388F3C4915EA6BDB00199132 /* PeriodicalPayments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388F3C6815EA6BDB00199132 /* Build configuration list for PBXNativeTarget "PeriodicalPayments" */;
+			buildPhases = (
+				388F3C4615EA6BDB00199132 /* Sources */,
+				388F3C4715EA6BDB00199132 /* Frameworks */,
+				388F3C4815EA6BDB00199132 /* Resources */,
+				7F86171F76444652A0854572 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeriodicalPayments;
+			productName = PeriodicalPayments;
+			productReference = 388F3C4A15EA6BDB00199132 /* PeriodicalPayments.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		388F3C4115EA6BDB00199132 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ML;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "–î–º–∏—Ç—Ä–∏–π –ú–µ–ª—å–Ω–∏–∫–æ–≤";
+			};
+			buildConfigurationList = 388F3C4415EA6BDB00199132 /* Build configuration list for PBXProject "PeriodicalPayments" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 388F3C3F15EA6BDB00199132;
+			productRefGroup = 388F3C4B15EA6BDB00199132 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				388F3C4915EA6BDB00199132 /* PeriodicalPayments */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		388F3C4815EA6BDB00199132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388F3C5915EA6BDB00199132 /* InfoPlist.strings in Resources */,
+				388F3C6515EA6BDB00199132 /* MLViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F86171F76444652A0854572 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		388F3C4615EA6BDB00199132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388F3C5B15EA6BDB00199132 /* main.m in Sources */,
+				388F3C5F15EA6BDB00199132 /* MLAppDelegate.m in Sources */,
+				388F3C6215EA6BDB00199132 /* MLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		388F3C5715EA6BDB00199132 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388F3C5815EA6BDB00199132 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		388F3C6315EA6BDB00199132 /* MLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388F3C6415EA6BDB00199132 /* en */,
+			);
+			name = MLViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		388F3C6615EA6BDB00199132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		388F3C6715EA6BDB00199132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		388F3C6915EA6BDB00199132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09E07F97672D4F928B0605CF /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeriodicalPayments/PeriodicalPayments-Prefix.pch";
+				INFOPLIST_FILE = "PeriodicalPayments/PeriodicalPayments-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		388F3C6A15EA6BDB00199132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09E07F97672D4F928B0605CF /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeriodicalPayments/PeriodicalPayments-Prefix.pch";
+				INFOPLIST_FILE = "PeriodicalPayments/PeriodicalPayments-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		388F3C4415EA6BDB00199132 /* Build configuration list for PBXProject "PeriodicalPayments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388F3C6615EA6BDB00199132 /* Debug */,
+				388F3C6715EA6BDB00199132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388F3C6815EA6BDB00199132 /* Build configuration list for PBXNativeTarget "PeriodicalPayments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388F3C6915EA6BDB00199132 /* Debug */,
+				388F3C6A15EA6BDB00199132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 388F3C4115EA6BDB00199132 /* Project object */;
+}
