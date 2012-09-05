@@ -10,12 +10,5 @@
 
 @interface MLViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UIButton *btn;
-@property (strong, nonatomic) IBOutlet UIButton *btnGetToken;
-
-- (IBAction)btnGetTokenTapped:(id)sender;
-
-- (IBAction)toAppBtnTapped:(id)sender;
-
 
 @end

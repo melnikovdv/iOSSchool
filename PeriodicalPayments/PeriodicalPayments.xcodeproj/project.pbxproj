@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		2D8CFCB2627D4FB4AB4612EF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED5C9C8986F4686A24606BE /* libPods.a */; };
+		38072B1C15F4B42E0066E0DD /* text.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38072B1B15F4B42E0066E0DD /* text.strings */; };
+		38072BCB15F4CF2B0066E0DD /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 38072BC115F4CF2B0066E0DD /* GTMHTTPFetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		38072BCC15F4CF2B0066E0DD /* GTMOAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 38072BC415F4CF2B0066E0DD /* GTMOAuth2Authentication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		38072BCD15F4CF2B0066E0DD /* GTMOAuth2SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 38072BC615F4CF2B0066E0DD /* GTMOAuth2SignIn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		38072BCE15F4CF2B0066E0DD /* GTMOAuth2ViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 38072BC915F4CF2B0066E0DD /* GTMOAuth2ViewControllerTouch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		38072BCF15F4CF2B0066E0DD /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38072BCA15F4CF2B0066E0DD /* GTMOAuth2ViewTouch.xib */; };
+		38072BD115F4CF3F0066E0DD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38072BD015F4CF3F0066E0DD /* SystemConfiguration.framework */; };
+		38072BD315F4CF4C0066E0DD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38072BD215F4CF4C0066E0DD /* Security.framework */; };
+		38072BDB15F4FA150066E0DD /* MLHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 38072BDA15F4FA150066E0DD /* MLHTTPClient.m */; };
+		38072BDF15F637600066E0DD /* MLYandexMoneyAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 38072BDE15F637600066E0DD /* MLYandexMoneyAPI.m */; };
+		38072C1115F79EAA0066E0DD /* MLMobileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38072C0F15F79EAA0066E0DD /* MLMobileController.m */; };
+		38072C1215F79EAA0066E0DD /* MLMobileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38072C1015F79EAA0066E0DD /* MLMobileController.xib */; };
 		388F3C4F15EA6BDB00199132 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388F3C4E15EA6BDB00199132 /* UIKit.framework */; };
 		388F3C5115EA6BDB00199132 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388F3C5015EA6BDB00199132 /* Foundation.framework */; };
 		388F3C5315EA6BDB00199132 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388F3C5215EA6BDB00199132 /* CoreGraphics.framework */; };
@@ -20,6 +32,25 @@
 
 /* Begin PBXFileReference section */
 		09E07F97672D4F928B0605CF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		38072B1B15F4B42E0066E0DD /* text.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = text.strings; sourceTree = "<group>"; };
+		38072BC015F4CF2B0066E0DD /* GTMHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcher.h; sourceTree = "<group>"; };
+		38072BC115F4CF2B0066E0DD /* GTMHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcher.m; sourceTree = "<group>"; };
+		38072BC315F4CF2B0066E0DD /* GTMOAuth2Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2Authentication.h; sourceTree = "<group>"; };
+		38072BC415F4CF2B0066E0DD /* GTMOAuth2Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2Authentication.m; sourceTree = "<group>"; };
+		38072BC515F4CF2B0066E0DD /* GTMOAuth2SignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2SignIn.h; sourceTree = "<group>"; };
+		38072BC615F4CF2B0066E0DD /* GTMOAuth2SignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2SignIn.m; sourceTree = "<group>"; };
+		38072BC815F4CF2B0066E0DD /* GTMOAuth2ViewControllerTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2ViewControllerTouch.h; sourceTree = "<group>"; };
+		38072BC915F4CF2B0066E0DD /* GTMOAuth2ViewControllerTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2ViewControllerTouch.m; sourceTree = "<group>"; };
+		38072BCA15F4CF2B0066E0DD /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMOAuth2ViewTouch.xib; sourceTree = "<group>"; };
+		38072BD015F4CF3F0066E0DD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		38072BD215F4CF4C0066E0DD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		38072BD915F4FA150066E0DD /* MLHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLHTTPClient.h; sourceTree = "<group>"; };
+		38072BDA15F4FA150066E0DD /* MLHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLHTTPClient.m; sourceTree = "<group>"; };
+		38072BDD15F637600066E0DD /* MLYandexMoneyAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLYandexMoneyAPI.h; sourceTree = "<group>"; };
+		38072BDE15F637600066E0DD /* MLYandexMoneyAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLYandexMoneyAPI.m; sourceTree = "<group>"; };
+		38072C0E15F79EAA0066E0DD /* MLMobileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLMobileController.h; sourceTree = "<group>"; };
+		38072C0F15F79EAA0066E0DD /* MLMobileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLMobileController.m; sourceTree = "<group>"; };
+		38072C1015F79EAA0066E0DD /* MLMobileController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MLMobileController.xib; sourceTree = "<group>"; };
 		388F3C4A15EA6BDB00199132 /* PeriodicalPayments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriodicalPayments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		388F3C4E15EA6BDB00199132 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		388F3C5015EA6BDB00199132 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -41,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38072BD315F4CF4C0066E0DD /* Security.framework in Frameworks */,
+				38072BD115F4CF3F0066E0DD /* SystemConfiguration.framework in Frameworks */,
 				388F3C4F15EA6BDB00199132 /* UIKit.framework in Frameworks */,
 				388F3C5115EA6BDB00199132 /* Foundation.framework in Frameworks */,
 				388F3C5315EA6BDB00199132 /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +84,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38072A6F15F48A4B0066E0DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				388F3C6315EA6BDB00199132 /* MLViewController.xib */,
+				38072B1B15F4B42E0066E0DD /* text.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		38072BBE15F4CF2B0066E0DD /* gtm-oauth2 */ = {
+			isa = PBXGroup;
+			children = (
+				38072BBF15F4CF2B0066E0DD /* HTTPFetcher */,
+				38072BC215F4CF2B0066E0DD /* Source */,
+			);
+			path = "gtm-oauth2";
+			sourceTree = "<group>";
+		};
+		38072BBF15F4CF2B0066E0DD /* HTTPFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				38072BC015F4CF2B0066E0DD /* GTMHTTPFetcher.h */,
+				38072BC115F4CF2B0066E0DD /* GTMHTTPFetcher.m */,
+			);
+			path = HTTPFetcher;
+			sourceTree = "<group>";
+		};
+		38072BC215F4CF2B0066E0DD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				38072BC315F4CF2B0066E0DD /* GTMOAuth2Authentication.h */,
+				38072BC415F4CF2B0066E0DD /* GTMOAuth2Authentication.m */,
+				38072BC515F4CF2B0066E0DD /* GTMOAuth2SignIn.h */,
+				38072BC615F4CF2B0066E0DD /* GTMOAuth2SignIn.m */,
+				38072BC715F4CF2B0066E0DD /* Touch */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		38072BC715F4CF2B0066E0DD /* Touch */ = {
+			isa = PBXGroup;
+			children = (
+				38072BC815F4CF2B0066E0DD /* GTMOAuth2ViewControllerTouch.h */,
+				38072BC915F4CF2B0066E0DD /* GTMOAuth2ViewControllerTouch.m */,
+				38072BCA15F4CF2B0066E0DD /* GTMOAuth2ViewTouch.xib */,
+			);
+			path = Touch;
+			sourceTree = "<group>";
+		};
+		38072BD815F4F6230066E0DD /* Networking Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				38072BD915F4FA150066E0DD /* MLHTTPClient.h */,
+				38072BDA15F4FA150066E0DD /* MLHTTPClient.m */,
+			);
+			name = "Networking Extensions";
+			sourceTree = "<group>";
+		};
+		38072BDC15F630640066E0DD /* YandexMoneyAPI */ = {
+			isa = PBXGroup;
+			children = (
+				38072BDD15F637600066E0DD /* MLYandexMoneyAPI.h */,
+				38072BDE15F637600066E0DD /* MLYandexMoneyAPI.m */,
+			);
+			name = YandexMoneyAPI;
+			sourceTree = "<group>";
+		};
 		388F3C3F15EA6BDB00199132 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +172,8 @@
 		388F3C4D15EA6BDB00199132 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				38072BD215F4CF4C0066E0DD /* Security.framework */,
+				38072BD015F4CF3F0066E0DD /* SystemConfiguration.framework */,
 				388F3C4E15EA6BDB00199132 /* UIKit.framework */,
 				388F3C5015EA6BDB00199132 /* Foundation.framework */,
 				388F3C5215EA6BDB00199132 /* CoreGraphics.framework */,
@@ -83,6 +185,10 @@
 		388F3C5415EA6BDB00199132 /* PeriodicalPayments */ = {
 			isa = PBXGroup;
 			children = (
+				38072BDC15F630640066E0DD /* YandexMoneyAPI */,
+				38072BD815F4F6230066E0DD /* Networking Extensions */,
+				38072BBE15F4CF2B0066E0DD /* gtm-oauth2 */,
+				38072A6F15F48A4B0066E0DD /* Resources */,
 				388F3C7415EA6C9E00199132 /* ViewControllers */,
 				388F3C7215EA6C8D00199132 /* Application */,
 				388F3C5515EA6BDB00199132 /* Supporting Files */,
@@ -115,7 +221,9 @@
 			children = (
 				388F3C6015EA6BDB00199132 /* MLViewController.h */,
 				388F3C6115EA6BDB00199132 /* MLViewController.m */,
-				388F3C6315EA6BDB00199132 /* MLViewController.xib */,
+				38072C0E15F79EAA0066E0DD /* MLMobileController.h */,
+				38072C0F15F79EAA0066E0DD /* MLMobileController.m */,
+				38072C1015F79EAA0066E0DD /* MLMobileController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -175,6 +283,9 @@
 			files = (
 				388F3C5915EA6BDB00199132 /* InfoPlist.strings in Resources */,
 				388F3C6515EA6BDB00199132 /* MLViewController.xib in Resources */,
+				38072B1C15F4B42E0066E0DD /* text.strings in Resources */,
+				38072BCF15F4CF2B0066E0DD /* GTMOAuth2ViewTouch.xib in Resources */,
+				38072C1215F79EAA0066E0DD /* MLMobileController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +316,13 @@
 				388F3C5B15EA6BDB00199132 /* main.m in Sources */,
 				388F3C5F15EA6BDB00199132 /* MLAppDelegate.m in Sources */,
 				388F3C6215EA6BDB00199132 /* MLViewController.m in Sources */,
+				38072BCB15F4CF2B0066E0DD /* GTMHTTPFetcher.m in Sources */,
+				38072BCC15F4CF2B0066E0DD /* GTMOAuth2Authentication.m in Sources */,
+				38072BCD15F4CF2B0066E0DD /* GTMOAuth2SignIn.m in Sources */,
+				38072BCE15F4CF2B0066E0DD /* GTMOAuth2ViewControllerTouch.m in Sources */,
+				38072BDB15F4FA150066E0DD /* MLHTTPClient.m in Sources */,
+				38072BDF15F637600066E0DD /* MLYandexMoneyAPI.m in Sources */,
+				38072C1115F79EAA0066E0DD /* MLMobileController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -274,6 +393,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -285,7 +405,14 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PeriodicalPayments/PeriodicalPayments-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"${PODS_HEADERS_SEARCH_PATHS}",
+					"\"/Users/melnikovdv/Projects/Temp/gtm-oauth2-read-only/Source\"",
+					"\"/Users/melnikovdv/Projects/Temp/gtm-oauth2-read-only/HTTPFetcher\"",
+					"\"/Users/melnikovdv/Projects/Temp/gtm-oauth2-read-only/Source/Touch\"",
+				);
 				INFOPLIST_FILE = "PeriodicalPayments/PeriodicalPayments-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -297,7 +424,14 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PeriodicalPayments/PeriodicalPayments-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"${PODS_HEADERS_SEARCH_PATHS}",
+					"\"/Users/melnikovdv/Projects/Temp/gtm-oauth2-read-only/Source\"",
+					"\"/Users/melnikovdv/Projects/Temp/gtm-oauth2-read-only/HTTPFetcher\"",
+					"\"/Users/melnikovdv/Projects/Temp/gtm-oauth2-read-only/Source/Touch\"",
+				);
 				INFOPLIST_FILE = "PeriodicalPayments/PeriodicalPayments-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

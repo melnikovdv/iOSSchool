@@ -16,8 +16,12 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[MLViewController alloc] initWithNibName:@"MLViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    
+    UIViewController *rootViewController = [[MLViewController alloc] initWithNibName:@"MLViewController" bundle:nil];
+        rootViewController.title = @"Периодические платежи";
+    
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
     return YES;
 }
